@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Media Query DIY</title>
+</head>
+
+<style>
+
+/*This is the global style sheet for smartphones*/
+
+body {
+  background-color: lightblue;
+}
+
+wrapper{
+width: 80%;
+min-width: 455px;
+max-width: 1366px;
+display: block;
+margin: auto;
+background-color: beige;
+}
+
+header{
+height: 50px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+div{
+width: 100%;
+background-color: pink;
+margin-top: 5px;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 5px;
+vertical-align: top;
+}
+
+banner{
+display: block;
+height: 100px;
+background-color: green;
+}
+
+/*This is the start of the tablet media query*/
+
+@media (min-width: 683px){
+
+body{
+background-color: orange;
+}
+
+div{
+width: 47%;
+display: inline-block;
+}
+}
+
+/*This is the start of the laptop media query*/
+
+@media (min-width: 1024.5px){
+
+body{
+background-color: purple;
+}
+
+div{
+width: 30%;
+display: block;
+}
+
+</style>
+	
+<body>
+
+<wrapper>
+<h1>My First CSS Example</h1>
+<banner></banner>
+<section></section>
+<section></section>
+<section></section>
+<section></section>
+<section></section>
+<section></section>
+<footer><p> 2024, Karina Prezeau.</p>
+			<p>This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+</wrapper>
+
+</body>
+</html>
