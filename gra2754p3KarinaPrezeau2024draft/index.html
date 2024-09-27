@@ -5,88 +5,100 @@
 <title>Media Query DIY</title>
 </head>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Spicy+Rice&display=swap" rel="stylesheet">
+	
 <style>
 
 /*This is the global style sheet for smartphones*/
 
 body {
-  background-color: lightblue;
+  background-color: darkred;
 }
 
 wrapper{
-width: 80%;
-min-width: 455px;
-max-width: 1366px;
-display: block;
-margin: auto;
-background-color: beige;
+    width: 80%;
+    min-width: 455px;
+    max-width: 2500px;
+    display: block;
+    margin: auto;
+    background-color: beige;
+    text-align: center;
 }
 
 header{
-height: 50px;
+    height: 50px;
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-size: xx-large;
+    text-align: center;
 }
 
-h1 {
-  color: white;
-  text-align: center;
-}
 
-div{
-width: 100%;
-background-color: pink;
+section{
+width: 98%;
 margin-top: 5px;
 margin-right: 5px;
 margin-bottom: 5px;
 margin-left: 5px;
-vertical-align: top;
+box-sizing: border-box
 }
 
 banner{
-display: block;
-height: 100px;
-background-color: green;
+    display: block;
+    height: 200px;
+    background-image: url(images/pizza-3010062_1280.jpg);
+    background-size: cover;
+    background-position: 0% 26%;
+}
+section img {
+    height: auto;
+    width: 100%;
+}
+footer {
+    font-family: "Spicy Rice", serif;
+    font-weight: lighter;
+    font-size: xx-small;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    text-align: left;
 }
 
 /*This is the start of the tablet media query*/
 
-@media (min-width: 683px){
+@media (min-width: 800px){
 
-body{
-background-color: orange;
-}
-
-div{
-width: 47%;
+section{
+width: 48%;
 display: inline-block;
 }
 }
 
 /*This is the start of the laptop media query*/
 
-@media (min-width: 1024.5px){
+@media (min-width: 1600px){
 
-body{
-background-color: purple;
+section{
+width: 31%;
 }
-
-div{
-width: 30%;
-display: block;
 }
-
+	
 </style>
 	
 <body>
 
 <wrapper>
-<h1>My First CSS Example</h1>
+<header>DIY Pizza From Scratch</header>
 <banner></banner>
-<section></section>
-<section></section>
-<section></section>
-<section></section>
-<section></section>
-<section></section>
+<section><img src="images/pizza-01.png" alt="" width="400" height="300"> </section>
+<section><img src="images/pizza-02.png" alt="" width="400" height="300"></section>
+<section><img src="images/pizza-03.png" alt="" width="400" height="300"></section>
+<section><img src="images/pizza-04.png" alt="" width="400" height="300"></section>
+<section><img src="images/pizza-05.png" alt="" width="400" height="300"></section>
+<section><img src="images/pizza-06.png" alt="" width="400" height="300"></section>
 <footer><p> 2024, Karina Prezeau.</p>
 			<p>This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
 </wrapper>
