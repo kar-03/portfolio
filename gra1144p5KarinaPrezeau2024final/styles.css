@@ -1,0 +1,420 @@
+@charset "utf-8";
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+}
+wrapper {
+    width: 1366px;
+    margin: 0 auto;
+    display: block;
+    background-color: #fff;
+    height: 1024px;
+}
+header {
+    height: 150px;
+    background-color: #000;
+    background-image: url(images/headerbackground.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+
+footer {
+    padding: 16px;
+    font-size: 12px;
+    font-family: "IM Fell French Canon SC", serif;
+    background-color: #000;
+    color: #CBCBCB;
+}
+ul a li:hover:not(.active)  {
+    background-color: rgba(0,47,158,1.00);
+    color: #FFFFFF;
+}
+.active {
+    padding-top: 21px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 17px;
+    background-color: rgba(255,255,255,0.15);
+}
+
+
+nav {
+    background-color: #000;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+ul a li {
+    display: inline-block;
+    padding: 16px 24px;
+    font-size: 20px;
+    color: #CBCBCB;
+    font-family: "Montserrat Subrayada", sans-serif;
+    background-image: url(images/Ashnikko_logo_2021.png);
+}
+#privacy {
+    background-image: url(images/Privacy-background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#blogs {
+    background-image: url(images/Blogs-background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#merch {
+    background-image: url(images/Merch-background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#socials {
+    background-image: url(images/Socials-background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#gallery {
+    background-image: url(images/Gallery-background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#concerts {
+    background-image: url(images/Concerts-background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#videos {
+    background-image: url(images/Videos-background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#store {
+    background-image: url(images/Store-background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#news {
+    background-image: url(images/News-background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#home {
+    background-position: center center;
+    background-size: cover;
+    background-image: url(images/Home-background.png);
+    background-repeat: no-repeat;
+}
+main {
+    margin: 0;
+    height: 708px;
+}
+h1 {
+    margin: 0;
+    padding-top: 18px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    color: #fff;
+    text-shadow: 0px 0px 3px;
+    font-family: "Aboreto", system-ui;
+}
+.videos {
+    display: block;
+}
+.videos iframe {
+    margin-left: 25px;
+    margin-top: 35px;
+    -webkit-box-shadow: 0px 0px 15px #FFFFFF;
+    box-shadow: 0px 0px 15px #FFFFFF;
+    border-radius: 10px;
+}
+.rainmagazine {
+    display: inline-block;
+    width: 32%;
+    margin-left: 165px;
+    margin-top: 12px;
+    border-width: medium;
+    border-color: #FFFFFF;
+    border-radius: 11px;
+    -webkit-box-shadow: 0px 0px 15px #FFFFFF;
+    box-shadow: 0px 0px 15px #FFFFFF;
+}
+.billboard {
+    display: block;
+    width: 35%;
+    margin-top: -572px;
+    margin-left: 717px;
+    border-width: medium;
+    border-color: #FFFFFF;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 15px #FFFFFF;
+    box-shadow: 0px 0px 15px #FFFFFF;
+}
+.BBCnews {
+    display: block;
+    width: 35%;
+    margin-left: 717px;
+    margin-top: 27px;
+    border-width: medium;
+    border-color: #FFFFFF;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 15px #FFFFFF;
+    box-shadow: 0px 0px 15px #FFFFFF;
+}
+.musicitems {
+    width: 15%;
+    margin-top: 44px;
+    margin-left: 105px;
+    background-color: rgba(255,255,255,0.50);
+    -webkit-box-shadow: 0px 0px 30px #FFFFFF;
+    box-shadow: 0px 0px 30px #FFFFFF;
+    border-radius: 40px;
+}
+h2 {
+    font-family: "Cinzel Decorative", serif;
+    color: #FFFFFF;
+}
+h3 {
+    font-family: "Cinzel", serif;
+    color: #FFFFFF;
+    display: inline-block;
+}
+.tourtitle {
+    text-align: center;
+    margin-bottom: 47px;
+    margin-top: 40px;
+}
+.dates {
+    margin-left: 260px;
+}
+.location1 {
+    margin-left: 108px;
+}
+.location2 {
+    margin-left: 113px;
+}
+.location3 {
+    margin-left: 111px;
+}
+.location4 {
+    margin-left: 101px;
+    width: auto;
+}
+.location5 {
+    margin-left: 102px;
+}
+.location6 {
+    margin-left: 105px;
+}
+.location7 {
+    margin-left: 105px;
+}
+.tickets1 {
+    margin-left: 241px;
+    -webkit-box-shadow: 0px 0px #FFFFFF;
+    box-shadow: 0px 0px #FFFFFF;
+    text-shadow: 0px 0px 10px #FFFFFF;
+}
+.tickets2 {
+    margin-left: 240px;
+    text-shadow: 0px 0px 10px #FFFFFF;
+}
+.tickets3 {
+    margin-left: 239px;
+    text-shadow: 0px 0px 10px #FFFFFF;
+}
+.tickets4 {
+    margin-left: 179px;
+    text-shadow: 0px 0px 10px #FFFFFF;
+}
+.tickets5 {
+    margin-left: 113px;
+    text-shadow: 0px 0px 10px #FFFFFF;
+}
+.tickets6 {
+    margin-left: 201px;
+    text-shadow: 0px 0px 10px #FFFFFF;
+}
+.tickets7 {
+    margin-left: 205px;
+    text-shadow: 0px 0px 10px #FFFFFF;
+}
+.tickets1 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.tickets2 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.tickets3 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.tickets4 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.tickets5 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.tickets6 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.tickets7 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.galleryitems {
+    width: 18%;
+    display: inline;
+    margin-left: 20px;
+    margin-top: 69px;
+    -webkit-box-shadow: 0px 0px 15px #FFFFFF;
+    box-shadow: 0px 0px 15px #FFFFFF;
+    border-radius: 10px;
+}
+.spotifyplaylist {
+    margin-top: 477px;
+    -webkit-box-shadow: 0px -5px 10px rgba(255,255,255,1.00);
+    box-shadow: 0px -5px 10px rgba(255,255,255,1.00);
+}
+#email {
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+    border-radius: 5px;
+    border-color: #000000;
+    height: 20px;
+}
+#notification {
+    font-family: "Cinzel", serif;
+    width: 25px;
+    height: 25px;
+    border-color: #000000;
+}
+#submit {
+    font-family: "Cinzel", serif;
+    width: 100px;
+    height: 30px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0px 0px 5px #000000;
+    box-shadow: 0px 0px 5px #000000;
+    border-color: #000000;
+}
+.emailsocials {
+    width: 600px;
+    height: 350px;
+    background-color: rgba(255,255,255,0.50);
+    border-radius: 40px;
+    -webkit-box-shadow: 0px 0px 30px #FFFFFF;
+    margin-top: -146px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    box-shadow: 0px 0px 30px #FFFFFF;
+    padding-top: 52px;
+}
+
+.emailinput {
+    font-family: "Cinzel", serif;
+    margin: auto;
+    color: #000000;
+    display: block;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+    width: auto;
+}
+.instagramlogo {
+    width: 30px;
+    margin-left: 220px;
+    margin-top: 45px;
+}
+.twitterlogo {
+    width: 50px;
+    margin-left: 25px;
+    margin-right: 24px;
+}
+.youtubelogo {
+    width: 38px;
+}
+.ashnikkosocials1 {
+    width: 10%;
+    margin-left: 130px;
+    margin-bottom: -62px;
+}
+.ashnikkosocials2 {
+    width: 15%;
+    margin-left: -38px;
+    margin-top: 36px;
+}
+.ashnikkosocials3 {
+    width: 27%;
+    float: right;
+    margin-top: -327px;
+}
+.merchlist {
+    margin: auto;
+}
+.merchitems {
+    width: 200px;
+    margin-left: 60px;
+    margin-top: 68px;
+    border-radius: 40px;
+    background-color: rgba(255,255,255,0.50);
+    -webkit-box-shadow: 0px 0px 30px #FFFFFF;
+    box-shadow: 0px 0px 30px #FFFFFF;
+}
+.blogitems {
+    margin-left: 54px;
+    width: 28%;
+    margin-top: 140px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 15px #FFFFFF;
+    box-shadow: 0px 0px 15px #FFFFFF;
+}
+.blogtitles {
+    width: 400px;
+    margin-left: 37px;
+    text-align: center;
+    margin-top: 32px;
+    text-shadow: 0px 0px 5px;
+}
+h4 {
+    font-family: "Cinzel Decorative", serif;
+    color: #000000;
+    font-weight: 900;
+    line-height: 25px;
+}
+.privacyterms {
+    margin-top: 65px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    width: 900px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    background-color: rgba(255,255,255,0.50);
+    border-radius: 40px;
+    -webkit-box-shadow: 0px 0px 30px #FFFFFF;
+    box-shadow: 0px 0px 30px #FFFFFF;
+    font-weight: normal;
+}
