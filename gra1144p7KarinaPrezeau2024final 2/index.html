@@ -1,0 +1,236 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tripadvisor | Karina Prezeau, 2024</title>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=IM+Fell+French+Canon+SC&family=Montserrat+Subrayada:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+	
+<style type="text/css">
+body {
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/pexels-quang-nguyen-vinh-222549-2132180.jpg);
+    font-family: "Poppins", sans-serif;
+    background-color: #010500;
+}
+header {
+    background-color: #FFFFFF;
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+}
+.logo {
+    height: 40px;
+    width: auto;
+    margin-left: 32px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+wrapper {
+    width: 1366px;
+    margin: 32px auto;
+    display: block;
+    border-radius: 16px;
+    background-color: rgba(255,255,255,0.50);
+}
+.flights {
+    height: 40px;
+    width: auto;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.hotels {
+    height: 35px;
+    width: auto;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 8px;
+    padding-left: 7px;
+}
+.cars {
+    height: 50px;
+    width: auto;
+}
+.cruises {
+    height: 50px;
+    width: auto;
+}
+.thingstodo {
+    height: 50px;
+    width: auto;
+}
+#Tabs1 ul {
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    border-bottom: thin solid rgba(255,255,255,0.75);
+    border-top: none;
+    background-image: none;
+}
+#Tabs1 li {
+    background-image: none;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.65);
+    margin: 8px;
+    text-align: center;
+    border-width: thin;
+    border-style: solid;
+    font-size: large;
+}
+#Tabs1 a {
+    color: rgba(0,0,0,1.00);
+    font-family: "Poppins", sans-serif;
+}
+#Tabs1 li:hover {
+    background-color: rgba(255,255,255,0.95);
+}
+#Tabs1 {
+    background-image: none;
+    border: none;
+    background-color: transparent;
+}
+#Tabs1 input {
+    padding: 8px;
+    border-radius: 8px;
+    width: 99%;
+    border: thin solid #F0F0F0;
+    height: 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    margin-top: 5px;
+    margin-right: 6.5px;
+    margin-left: 6.5px;
+    margin-bottom: 5px;
+    background-color: #FFFFFF;
+    cursor: text;
+    font-size: medium;
+}
+#Tabs1 .half {
+    width: 49%;
+    display: inline-block;
+    margin-left: 6.5px;
+    margin-right: 6.5px;
+}
+#Tabs1 .search {
+    width: 10%;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 2px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    height: 30px;
+    display: block;
+    background-color: #34DFA1;
+    border: thin solid #FFFFFF;
+    cursor: pointer;
+}
+#Tabs1 .dropdown {
+    padding: 8px;
+    border-radius: 8px;
+    width: 99%;
+    border: thin solid #F0F0F0;
+    height: 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    margin-top: 5px;
+    margin-right: 6.5px;
+    margin-left: 6.5px;
+    margin-bottom: 5px;
+    background-color: #FFFFFF;
+    cursor: text;
+    font-size: medium;
+}
+footer {
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 812px;
+    font-size: small;
+}
+</style>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+</head>
+
+<body>
+<header><img src="images/Tripadvisor_logo.svg" alt="" width="" height="" class="logo"></header>
+<wrapper>
+  <div id="Tabs1">
+    <ul>
+      <li><a href="#tabs-1"><img src="images/flight-icon.png" alt="" width="320" height="320" class="flights"><br>
+      Flights</a></li>
+      <li><a href="#tabs-2"><img src="images/hotel-icon.png" alt="" width="512" height="509" class="hotels"><br>
+      Hotels</a></li>
+      <li><a href="#tabs-3"><img src="images/car-icon.png" alt="" width="512" height="512" class="cars"><br>
+      Cars</a></li>
+      <li><a href="#tabs-4"><img src="images/cruise-icon.png" alt="" width="512" height="512" class="cruises"><br>
+      Cruises</a></li>
+      <li><a href="#tabs-5"><img src="images/camera-icon.png" alt="" width="512" height="512" class="thingstodo"><br>
+      Things to Do</a></li>
+    </ul>
+    <div id="tabs-1">
+      <form><input type="text" class="half" placeholder="Leaving from"><input type="text" class="half" placeholder="Going to">
+	  <input type="date" class="half"><input type="date" class="half">
+	  <input type="number" placeholder="Number of seats" min="1" max="100">
+	  <input type="submit" class="search" value="Search"></form>
+    </div>
+    <div id="tabs-2">
+      <form>
+	  <input type="text" placeholder="Location">
+	  <input type="date" class="half"><input type="date" class="half">
+	  <input type="number" placeholder="Number of guests" min="1" max="100">
+	  <input type="submit" class="search" value="Search"></form>
+    </div>
+    <div id="tabs-3">
+      <form>
+	  <input type="text" class="half" placeholder="Picking up from"><input type="text" class="half" placeholder="Dropping off to">
+	  <input type="date" class="half"><input type="date" class="half">
+	  <select class="dropdown"><option value="2">Two seater</option><option value="5">Five seater</option><option value="7">Seven seater</option><option value="8">Eight seater</option><option value="10">Ten seater</option><option value="12">Twelve seater</option><option value="15">Fifteen seater</option></select>
+	  <input type="submit" class="search" value="Search"></form>
+    </div>
+    <div id="tabs-4">
+      <form>
+	  <input type="text" class="half" placeholder="Leaving from"><input type="text" class="half" placeholder="Going to">
+	  <input type="date" class="half"><input type="date" class="half">
+	  <input type="number" placeholder="Number of guests" min="1" max="100" class="half"><input type="number" placeholder="Number of cabins" min="1" max="100" class="half">
+	  <input type="submit" class="search" value="Search"></form>
+    </div>
+    <div id="tabs-5">
+      <form>
+	  <input type="text" placeholder="Location">
+	  <input type="date" class="half"><input type="date" class="half">
+	  <input type="submit" class="search" value="Search"></form>
+    </div>
+  </div>
+</wrapper>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+<footer><p>&copy; 2024, Karina Prezeau.</p>
+	<p>This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+</body>
+</html>
